@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 body {
   background: rgb(22,13,185);
   background: linear-gradient(90deg, rgba(22,13,185,1) 0%, rgba(15,212,188,1) 50%, rgba(22,13,185,1) 100%);
@@ -70,6 +73,9 @@ img:hover {
   }
 }
 
+.score {
+  font-size: 30px;
+}
 
 .container {
   display: flex;
@@ -83,7 +89,8 @@ img:hover {
 }
 
 #title {
-  text-align: center
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 .scoreboard {
@@ -94,10 +101,12 @@ img:hover {
   margin: 20px auto;
   border: 5px solid blue; 
   border-radius: 20px;
+  font-family: 'Righteous', cursive;
 }
 
 #comp_choice_div {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 #comp_choice {
@@ -107,6 +116,8 @@ img:hover {
 
 #results {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px
 }
 
 .win_results {
