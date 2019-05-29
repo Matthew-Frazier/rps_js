@@ -9,27 +9,44 @@
 </head>
 
 <body>
-  <header>
-    <h1 id="title">Rock | Paper | Scissors</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1 id="title">Rock | Paper | Scissors</h1>
+    </header>
+    
+    <!-- <div>
+      <p id="reset">Reset Score</p>
+    </div> -->
 
-  <div class="scoreboard">
-    <span id="user_score">0</span>
-    <span>:</span>
-    <span id="comp_score">0</span>
-  </div>
-
-  <div id="player_choice">
-    <div class="choice" id="rock">
-      <img src="" alt="">
+    <div class="scoreboard">
+      <p>WINS | LOSES | TIES</p>
+      <span id="user_score">0</span>
+      <span>:</span>
+      <span id="comp_score">0</span>
+      <span>:</span>
+      <span id="tie_score">0</span>
+    </div>
+    
+    <div id="player_choice">
+      <div class="choice" id="Rock">
+        <img src="/images/maloik (1).png" alt="rock">
+      </div>
+      
+      <div class="choice" id="Paper">
+        <img src="/images/paper-plane (1).png" alt="paper">
+      </div>
+      
+      <div class="choice" id="Scissors">
+        <img src="/images/scissor (1).png" alt="scissors">
+      </div>
     </div>
 
-    <div class="choice" id="paper">
-      <img src="" alt="">
+    <div id="comp_choice_div">
+      <p id="comp_choice"></p>
     </div>
 
-    <div class="choice" id="scissors">
-      <img src="" alt="">
+    <div id="results">
+      <p id="result"></p>
     </div>
   </div>
   <script src="./app.js"></script>
