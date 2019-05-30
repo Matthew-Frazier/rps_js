@@ -94,11 +94,21 @@ for(var i = 0; i < choices.length; i++) {
 }
 
 // var reset = document.getElementsById("reset");
-// reset.addEventListener("click", function() {
+// reset.addEventListener("click", myFunction); 
+// function myFunction(reset) {
 //   wins = 0;
 //   loses = 0;
 //   ties = 0;
 //   userScore.innerHTML = wins;
 //   compScore.innerHTML = loses;
 //   tieScore.innerHTML = ties;
-// })
+// }
+
+// document.getElementById("reset").onclick = function() {
+//   wins.value = 0;
+//   loses.value = 0;
+//   ties.value = 0;
+//   userScore.innerHTML = wins;
+//   compScore.innerHTML = loses;
+//   tieScore.innerHTML = ties;
+// };
